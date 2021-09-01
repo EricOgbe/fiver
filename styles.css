@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #638296;
+}
+.hero {
+    background: url(./hero2.jpg);
+    height: 138vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+}
+.text-box {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 300%;
+}
+p {
+    font-size: 150%;
+}
+.plans {
+    
+    color: white;
+    text-align: center;
+}
+.see {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.see:hover {
+   background-color: black;
+   color: white;
+   cursor: pointer;
+}
+.flex-grid {
+    display: flex;
+    padding: 50px 200px;
+    background-color: #638296;
+  }
+  .col {
+    flex: 1;
+    text-align: center;
+  }
+  .client {
+      display: block;
+      text-align: center;
+      position: relative;
+      
+      text-transform: uppercase;
+  }
+  .test-img {
+      border-radius: 100%;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 30px;
+  }
+  .testimonial-1 {
+      width: 300px;
+  }
+ 
+  header {
+      margin: 0;
+  }

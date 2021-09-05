@@ -72,3 +72,34 @@ p {
   header {
       margin: 0;
   }
+.sites {
+      display: flex;
+  }
+.site1 {
+   flex-basis: 25%;
+   height: 25vh;
+   background: url(./shotlove1.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+  }
+.site2 {
+    flex-basis: 25%; 
+    height: 25vh; 
+    background: url(./valentineshot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.site3 {
+    flex-basis: 25%; 
+    height: 25vh;
+    background: url(./tinder1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.site4 {
+    flex-basis: 25%;  
+    height: 25vh;
+    background: url(./drum1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -35,6 +35,17 @@ p {
     text-align: center;
     
 }
+.see2 {
+    
+    border: 2px solid white;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+    
+}
 .see {
     border: 2px solid white;
     display: inline-block;

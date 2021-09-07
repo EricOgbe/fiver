@@ -4,19 +4,23 @@ body {
     background-color: #638296;
 }
 .hero {
-    background: url(./hero2.jpg);
+    background: linear-gradient(rgba(61, 201, 206, 0.603),#638296) ,url(./hero3web.jpg);
     height: 138vh;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    background-position: center;
     
 }
 .text-box {
     color: white;
-    text-align: center;
+    text-align: left;
     padding-top: 10%;
+    padding-left: 10%;
+    /* border: 2px solid black; */
+    display: inline-block;
 }
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -29,11 +33,12 @@ p {
     
     color: white;
     text-align: center;
+    
 }
 .see {
     border: 2px solid white;
     display: inline-block;
-    padding: 1%;
+    padding: 2%;
     border-radius: 20px;
     background-color: white;
     color: black;
@@ -76,30 +81,34 @@ p {
       display: flex;
   }
 .site1 {
-   flex-basis: 25%;
-   height: 25vh;
+   flex-basis: 50%;
+   height: 50vh;
    background: url(./shotlove1.png);
    background-size: contain;
    background-repeat: no-repeat;
   }
 .site2 {
-    flex-basis: 25%; 
-    height: 25vh; 
-    background: url(./valentineshot.png);
+    flex-basis: 50%; 
+    height: 50vh; 
+   background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+    
 }
 .site3 {
-    flex-basis: 25%; 
-    height: 25vh;
-    background: url(./tinder1.png);
+    flex-basis: 50%; 
+    height: 50vh;
+    background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+    
 }
 .site4 {
-    flex-basis: 25%;  
-    height: 25vh;
-    background: url(./drum1.png);
+    flex-basis: 50%;  
+    height: 50vh;
+    background: url(./valentineshot.png);
     background-size: contain;
     background-repeat: no-repeat;
 }

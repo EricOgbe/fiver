@@ -5,9 +5,9 @@ body {
 }
 .hero {
     background: linear-gradient(rgba(61, 201, 206, 0.603),#638296) ,url(./hero3web.jpg);
-    height: 138vh;
+    height: 88vh;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;

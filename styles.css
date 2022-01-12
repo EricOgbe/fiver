@@ -53,6 +53,8 @@ p {
     border-radius: 20px;
     background-color: white;
     color: black;
+    position: relative;
+    left: 20px;
 }
 .see:hover {
    background-color: black;
